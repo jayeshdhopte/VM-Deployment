@@ -1,6 +1,6 @@
 module "vm" {
   source  = "app.terraform.io/jayesh-d-org/vm/azurerm"
-  version = "0.0.5"
+  version = "0.0.6"
 
   # 1. CORE CONFIGURATION
   subscription_id       = var.subscription_id
